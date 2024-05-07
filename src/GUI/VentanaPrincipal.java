@@ -918,7 +918,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
           }
        });
        panelContenedorPestañas.add("Script", scrollPane);
-       directorio = new Directory(this, textArea, "GCKKKK", ".gck", panelContenedorPestañas);
+       directorio = new Directory(this, textArea, "RCBBBB", ".rcb", panelContenedorPestañas);
        //textArea.setSyntaxEditingStyle(SyntaxConstants.SYNTAX_STYLE_GO);
 
        textArea.setSyntaxEditingStyle("text/myLanguage");
@@ -1039,7 +1039,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
          }
       });
       panelContenedorPestañas.add("Script", scrollPane);
-      directorio = new Directory(this, textArea, "GCKKKK", ".gck");
+      directorio = new Directory(this, textArea, "RCBBBB", ".rcb");
       //textArea.setSyntaxEditingStyle(SyntaxConstants.SYNTAX_STYLE_GO);
 
       textArea.setSyntaxEditingStyle("text/myLanguage");

@@ -26,7 +26,7 @@ public class Directory {
     JFileChooser selecFile = new JFileChooser();
     JTabbedPane tabs = new JTabbedPane();
     private File file;
-    private FileNameExtensionFilter filtro = new FileNameExtensionFilter("Archivos .gck","gck");
+    private FileNameExtensionFilter filtro = new FileNameExtensionFilter("Archivos .rcb","rcb");
     private final String[] options = new String[]{"Guardar y continuar", "Descartar"};
     private final String title;
     private final String extension;
