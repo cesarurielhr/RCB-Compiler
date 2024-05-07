@@ -45,7 +45,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
    public ArrayList<Token> ComponentesLexicos = null;
    public ArrayList<ErrorToken> errores = null;
    private Directory directorio;
-   int[] edad = {45,};
+   
 
    public VentanaPrincipal() {
       initComponents();
@@ -1000,7 +1000,6 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
    private void compilationButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_compilationButtonActionPerformed
       analisisLexico();
-      analisisSintactico();
       mostrarErrores();
    }//GEN-LAST:event_compilationButtonActionPerformed
 
