@@ -762,14 +762,6 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem3ActionPerformed"/>
                   </Events>
                 </MenuItem>
-                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Manual t&#xe9;cnico"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem4ActionPerformed"/>
-                  </Events>
-                </MenuItem>
               </SubComponents>
             </Menu>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
@@ -778,37 +770,6 @@
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
-              </Events>
-            </MenuItem>
-          </SubComponents>
-        </Menu>
-        <Menu class="javax.swing.JMenu" name="TSMenu">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Tablas de s&#xed;mbolos"/>
-          </Properties>
-          <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="TSFijaMenu">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="TS Fija"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TSFijaMenuActionPerformed"/>
-              </Events>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="TSFunciones">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="TS Funciones"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TSFuncionesActionPerformed"/>
-              </Events>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="TSArreglos">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="TS Arreglos"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TSArreglosActionPerformed"/>
               </Events>
             </MenuItem>
           </SubComponents>
@@ -1140,17 +1101,6 @@
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="compilationButtonActionPerformed"/>
-              </Events>
-            </Component>
-            <Component class="javax.swing.JButton" name="tsButton">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Tabla de s&#xed;mbolos"/>
-                <Property name="focusable" type="boolean" value="false"/>
-                <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="verticalTextPosition" type="int" value="3"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tsButtonActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
